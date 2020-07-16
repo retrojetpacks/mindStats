@@ -1,0 +1,144 @@
+body{
+  font-family: 'Crimson Pro';
+  text-align: center;
+  background-color: #fafafa;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Pro';
+}
+
+#Header{
+  /* margin-bottom: 50px; */
+  background-color: #442288;
+}
+
+#Title{
+  font-family: 'Fira Sans';
+  font-size: 5rem;
+  letter-spacing: 10px;
+  text-align: center;
+  padding: 80px;
+  color: #fff;
+  margin: 0;
+  height: 300px;
+}
+
+
+/* ------- Stat panel -------- */
+
+#Body{
+  height: 400px;
+}
+
+.left-border{
+  padding: 0;
+}
+
+.body-row{
+  padding-top: 80px;
+}
+
+.stats{
+  font-family: 'Crimson Pro';
+  font-size: 1.5rem;
+  color: #333333;
+  font-weight: bolder;
+}
+
+.stat-row{
+  padding: 0;
+}
+
+.stat-row-odd{
+  background-color:  #efefef;
+}
+.stat-row-even{
+  background-color: inherit;
+}
+
+.stat{
+  padding: 0;
+}
+
+input[type=number], .stat-val{
+  width: 40px;
+  background-color: inherit;
+  border-width: 0;
+  padding: 0;
+}
+
+.stat-check{
+  padding: 0;
+}
+
+/* =-------------- Roll  button ------------- */
+.button-box{
+  padding-top: 30px;
+}
+
+.roll-btn{
+  background-color:  #442288;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  font-family: 'Fira Sans';
+}
+.roll-btn:hover{
+  background-color: #fa7fb2;
+  color:  #fff;
+}
+
+
+/* --------------- Die Panel --------------- */
+.dice-pane{
+  padding: 0;
+  height: 300px;
+}
+.die{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+
+#die-A{
+  top: 10%;
+  left: 10%;
+  transform: rotate(20deg);
+}
+
+#die-B{
+  bottom: 10%;
+  right: 10%;
+  transform: rotate(80deg);
+}
+
+
+/* Check result panel */
+
+.check-result{
+  background-color: #efefef;
+  text-align: right;
+  padding: 40px 20%;
+  font-family: 'Fira Sans';
+  font-size: 3rem;
+  color: #442288;
+  margin: 0;
+}
+
+/* Footer */
+
+.foot{
+  background-color: #442288;
+
+}
+
+.foot-text{
+  font-size: 1rem;
+  color: #aaaaaa;
+  text-align: right;
+  padding: 80px 20px 20px;
+  font-family: 'Pangolin';
+}
